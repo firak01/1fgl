@@ -1,9 +1,7 @@
-REM FGL: 20160331
-REM Batch zum Abbrechen des Runterfahrens von Win7 Rechnern (OHNE Neustart)
-REM falls noch spezielles erledigt werden muss. Diese Datei umbenennen z.B. nach shutdownRestartScipio.bat und dann jetzt das Spezialscript verwenden
-REM cd\
-REM cd server\script
-REM start /wait onShutdownScipio.bat
+REM FGL: 20190201
+REM Batch zum Abbrechen des Runterfahrens von Win7 Rechnern (REMOTE)
+REM In den Shutdown Scripten ist beschrieben, welche Voraussetzungen erfüllt sein müssen.
 shutdown -m \\Ugaki-SRV /a
 pause
 exit
+
