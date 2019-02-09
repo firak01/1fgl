@@ -35,6 +35,9 @@ server/script/*
 !/client
 client/*
 !client/script/
+!client/VIAClient/
+!client/VIAClientBackup/
+
 
 # Das 1remark Verzeichnis auch nicht igonrieren
 !/1remark
