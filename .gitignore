@@ -50,6 +50,7 @@ client/*
 # Ignore special directories
 # Merke: Auf dem Notebook (mit nur 1 Festplatte) kommt dann alles zusammen, was beispielsweise auf verschiedenen Rechner auf das D-Laufwerk ausgegliedert wurde (auf die zweite Festplatte halt).
 /.ssh/
+/.*/
 /1todo*/
 /backup/
 /id/
