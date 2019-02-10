@@ -50,14 +50,16 @@ client/*
 /.ssh/
 /.*/
 /1todo*/
-/backup/
+/backup*/
 /id/
-/software/
+/software*/
 /firefoxdata*/
 /MagentaCLOUD*/
+/Neuer Ordner*/
 /repo*/
 /repository*/
 /Telegram Desktop*/
+/virtualCD*/
 /virtualIO*/
 /WindowsProductKeyViewer*/
 /Workspace*/
