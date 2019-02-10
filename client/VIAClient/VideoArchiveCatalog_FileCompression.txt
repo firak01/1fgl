@@ -1,5 +1,0 @@
-DivX 5.xx
-DivX 4.xx
-DivX 3.xx
-None
-Other
