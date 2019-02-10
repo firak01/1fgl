@@ -32,12 +32,10 @@ server/script/*
 # Nun alle Verzeichnisse unterhalb von client ignorieren,
 # ausser dem script Verzeichnis...
 # siehe: https://stackoverflow.com/questions/5533050/gitignore-exclude-folder-but-include-specific-subfolder
+# Merke: VIAClient ist ein eigenes Repository
 !/client
 client/*
 !client/script/
-!client/VIAClient/
-!client/VIAClientBackup/
-
 
 # Das 1remark Verzeichnis auch nicht igonrieren
 !/1remark
