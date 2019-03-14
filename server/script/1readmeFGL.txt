@@ -1,0 +1,1 @@
+REM: CODIERUNG MUSS ANSI SEIN, damit DOS Batch Befehle erkannt werden. Die Codierung kann man mit Notepad++ umstellen.

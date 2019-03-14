@@ -1,4 +1,6 @@
-﻿REM FGL 20190201:
+﻿REM: CODIERUNG MUSS ANSI SEIN, damit DOS Batch Befehle erkannt werden.
+
+REM FGL 20190201:
 REM Batch zum Runterfahren und Neustarten von Win7 Rechnern REMOTE
 REM zwischen den Parametern /t: 720 muss nach dem Doppelpunkt ein Leerzeichen stehen
 REM Ein Abbrechen des Remote Shutdowns ist auch remote möglich

@@ -24,6 +24,7 @@ server/script/*
 !server/script/PowerManagerEnergenieLAN
 !server/script/timesync
 !server/script/shutdown
+!1readme*.txt
 !on*.bat
 !shutdown*.bat
 !TryOut*.bat

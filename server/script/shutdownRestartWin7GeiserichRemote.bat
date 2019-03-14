@@ -18,7 +18,7 @@ REM    Abhilfe schafft der Eintrag eines Schlüssels in die Registrierdatenbank 
 REM    reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 1 /f
 REM  
 REM    
-shutdown /f /r -m \\Geiserich /t: 30 /c "Remote shutdown des Rechners. Dringend alle Server runterfahren."
+shutdown /f /r -m \\GEISERICH /t: 30 /c "Remote shutdown des Rechners. Dringend alle Server runterfahren."
 pause
 exit
 
