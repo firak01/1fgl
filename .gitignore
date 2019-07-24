@@ -24,6 +24,7 @@ server/script/*
 !server/script/PowerManagerEnergenieLAN
 !server/script/timesync
 !server/script/shutdown
+!1readme*.txt
 !on*.bat
 !shutdown*.bat
 !TryOut*.bat
@@ -51,17 +52,21 @@ client/*
 /.*/
 /1todo*/
 /backup*/
+/doku*/
 /id/
 /software*/
 /firefoxdata*/
 /MagentaCLOUD*/
 /Neuer Ordner*/
+/programme*/
 /repo*/
 /repository*/
 /Telegram Desktop*/
+/tempfgl*/
 /virtualCD*/
 /virtualIO*/
 /WindowsProductKeyViewer*/
+/ws*/
 /Workspace*/
 /xxx*/
 
