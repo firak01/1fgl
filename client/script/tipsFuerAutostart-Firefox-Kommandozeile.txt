@@ -1,1 +1,1 @@
-"C:\Program Files\Mozilla Firefox\firefox.exe" -no-remote -new-tab -p  "FGL-PRV"  -url http://youtube.de http://www.radio-fsn.de/sender/balladen.pls
+"C:\Program Files\Mozilla Firefox\firefox.exe" -no-remote -new-tab -p  "FGL-PRV"  -url http://fgl.homepage.t-online.de/pagIPLinkFGL.html http://youtube.de http://www.radio-fsn.de/sender/balladen.pls
