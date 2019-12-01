@@ -1,3 +1,15 @@
 "C:\Program Files\Mozilla Firefox\firefox.exe" -no-remote -new-tab -p  "FGL-PRV"  -url http://fgl.homepage.t-online.de/pagIPLinkFGL.html -url http://youtube.de -url http://www.radio-fsn.de/sender/balladen.pls
 
 Für Firefox Portable:
+C:\1fgl\client\FirefoxPortable3.5\FirefoxPortable\FirefoxPortable.exe
+
+
+Für Firefox
+"C:\Program Files\Mozilla Firefox64bit\firefox.exe" -no-remote -p "FGL-DEV"
+
+"C:\Program Files\Mozilla Firefox64bit\firefox.exe" -no-remote -p "FGL-PRV"
+
+"C:\Program Files\Mozilla Firefox64bit\firefox.exe" -no-remote -p "HIS-HIS"
+
+"C:\Program Files\Mozilla Firefox64bit\firefox.exe" -no-remote -p
+
