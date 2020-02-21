@@ -1,6 +1,6 @@
 REM Fahre das System runter und warte einige Secunden, nur um dann per Ping die Stromleiste zu erreichen.
 REM Dadurch soll dort ggfs. beim Runterfahren das Abstellen einer Steckdose sichergestellt weden.
-C:\WINDOWS\system32\shutdown.exe -s -t 15 -c "Runterfahren des Hostsystems. Dringend alle Server runterfahren. Neustart per BIOS Einstellung." -f
+C:\WINDOWS\system32\shutdown.exe -s -f -t 15 -c "Runterfahren des Hostsystems. Dringend alle Server runterfahren. Neustart per BIOS Einstellung." -f
 
 REM Warte bis 1 Sekunde vor Ende der Shutdown Zeit.
 REM Funktioniert irgendwie nicht unter winxp timeout /t 14
