@@ -11,7 +11,7 @@ REM 2. Auf beiden beteiligten Rechnern in der Windows Registry folgenden Eintrag
 REM    Abhilfe schafft der Eintrag eines Schlüssels in die Registrierdatenbank des verwalteten PCs, so dass die Rechte des lokalen Admins auch über das Netz durchgereicht werden. Dazu gibt man am einfachsten in einer Eingabeaufforderung mit Adminstratorrechten den Befehl
 REM    reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 1 /f
 REM    
-shutdown /f /s -m \\TAKAGI /t: 720 /c "Remote Shutdown des Hostsystems. Dringend alle Server runterfahren."
+shutdown /f /s -m \\TAKAGI-PRV /t: 720 /c "Remote Shutdown des Hostsystems. Dringend alle Server runterfahren."
 pause
 exit
 
