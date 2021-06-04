@@ -15,6 +15,12 @@ timeout 30
 REM call C:\1fgl\server\WakeOnLAN\mc-wol\wolAlarichFGL.bat
 start C:\1fgl\server\WakeOnLAN\mc-wol\wolAlarichFGL.bat
 
+echo ################################################################
+echo VERSUCHE DEN RECHNER TOTILA ZU STARTEN
+timeout 30
+REM call C:\1fgl\server\WakeOnLAN\mc-wol\wolTotilaFGL.bat
+start C:\1fgl\server\WakeOnLAN\mc-wol\wolTotilaFGL.bat
+
 REM echo ################################################################
 REM echo VERSUCHE DEN RECHNER PATTON ZU STARTEN
 REM timeout 10
