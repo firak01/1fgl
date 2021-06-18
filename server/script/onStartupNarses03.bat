@@ -13,18 +13,18 @@ echo ################################################################
 echo VERSUCHE DEN RECHNER ALARICH ZU STARTEN
 timeout 30
 REM call C:\1fgl\server\WakeOnLAN\mc-wol\wolAlarichFGL.bat
-start C:\1fgl\server\WakeOnLAN\mc-wol\wolAlarichFGL.bat
+start C:\1fgl\server\WakeOnLAN\wolAlarichFGL.bat
 
 echo ################################################################
 echo VERSUCHE DEN RECHNER TOTILA ZU STARTEN
 timeout 30
 REM call C:\1fgl\server\WakeOnLAN\mc-wol\wolTotilaFGL.bat
-start C:\1fgl\server\WakeOnLAN\mc-wol\wolTotilaFGL.bat
+start C:\1fgl\server\WakeOnLAN\wolTotilaFGL.bat
 
 REM echo ################################################################
 REM echo VERSUCHE DEN RECHNER PATTON ZU STARTEN
 REM timeout 10
-REM call C:\1fgl\server\WakeOnLAN\mc-wol\wolPattonFGL.bat
+REM call C:\1fgl\server\WakeOnLAN\wolPattonFGL.bat
 
 
 @echo on
