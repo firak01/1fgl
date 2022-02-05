@@ -17,6 +17,8 @@ server/*
 !server/wakeOnLAN/
 !server/autologonWin10/
 !server/autologonWin7/
+!server/BGInfo/
+!server/BGInfoWin10/
 
 # Auch im Sever Script Verzeichnis alles ignorieren, ausser timesync, etc. ...
 !server/script
