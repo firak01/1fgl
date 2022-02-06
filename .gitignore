@@ -32,6 +32,10 @@ server/script/*
 !TryOut*.bat
 !TryOut*.txt
 
+# Auch im BGInfo Verzeichnissen erst einmal noch die .bmp Dateien ignorieren
+server/BGInfoWin10/
+!*.bmp
+
 # Nun alle Verzeichnisse unterhalb von client ignorieren,
 # ausser dem script Verzeichnis...
 # siehe: https://stackoverflow.com/questions/5533050/gitignore-exclude-folder-but-include-specific-subfolder
