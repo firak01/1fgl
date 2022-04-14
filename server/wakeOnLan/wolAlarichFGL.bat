@@ -8,3 +8,5 @@ cd mc-wol
 mc-wol 8C:73:6E:B1:25:18 
 
 REM versuch ueber WLAN BC:77:37:08:30:3A:FE
+
+pause
