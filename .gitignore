@@ -17,6 +17,8 @@ server/*
 !server/wakeOnLAN/
 !server/autologonWin10/
 !server/autologonWin7/
+!server/BGInfo/
+!server/BGInfoWin10/
 
 # Auch im Sever Script Verzeichnis alles ignorieren, ausser timesync, etc. ...
 !server/script
@@ -29,6 +31,10 @@ server/script/*
 !shutdown*.bat
 !TryOut*.bat
 !TryOut*.txt
+
+# Auch im BGInfo Verzeichnissen erst einmal noch die .bmp Dateien ignorieren
+server/BGInfoWin10/
+!*.bmp
 
 # Nun alle Verzeichnisse unterhalb von client ignorieren,
 # ausser dem script Verzeichnis...
@@ -57,6 +63,7 @@ client/*
 /software*/
 /firefoxdata*/
 /MagentaCLOUD*/
+/ownCloud*/
 /Neuer Ordner*/
 /programme*/
 /repo*/
