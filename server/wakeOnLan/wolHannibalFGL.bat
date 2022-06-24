@@ -8,3 +8,4 @@ REM ??? ipconfig /all gibt aber andere Angaben zurück .... mc-wol 00:11:d8:5f:d1
 REM In das Verzeichnis der EXE-Wechseln
 cd mc-wol
 mc-wol 00:11:D8:75:92:FE
+pause
