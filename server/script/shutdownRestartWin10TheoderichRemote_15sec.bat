@@ -9,6 +9,7 @@ REM Voraussetzungen
 REM 1. Service/Dienst RemoteRegistry auf beiden beteiligten Rechnern aktiviert und gestartet
 REM 2. Auf beiden beteiligten Rechnern in der Windows Registry folgenden Eintrag ergänzt, bzw. das Abstellen der Rechtefilterung von der UAC ist notwendig:
 REM    Abhilfe schafft der Eintrag eines Schlüssels in die Registrierdatenbank des verwalteten PCs, so dass die Rechte des lokalen Admins auch über das Netz durchgereicht werden. Dazu gibt man am einfachsten in einer Eingabeaufforderung mit Adminstratorrechten den Befehl
+REM    Dies mit cmd.exe als Admin ausführen.
 REM    reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 1 /f
 REM    
 shutdown /f /r -m \\THEODERICH /t: 15 /c "Remote Shutdown des Hostsystems. Dringend alle Server runterfahren."

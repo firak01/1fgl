@@ -12,7 +12,9 @@ REM    Abhilfe schafft der Eintrag eines Schlüssels in die Registrierdatenbank 
 REM    Dies mit cmd.exe als Admin ausführen.
 REM    reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 1 /f
 REM    
-shutdown /f /r -m \\THEODERICH /t: 720 /c "Remote Shutdown des Hostsystems. Dringend alle Server runterfahren."
+
+REM NARSES01: 
+shutdown /f /s -m \\HANNIBAL /t: 60 /c "Remote Shutdown des Hostsystems. Dringend alle Server runterfahren."
 pause
 exit
 

@@ -1,5 +1,11 @@
-﻿REM: CODIERUNG MUSS ANSI SEIN, damit DOS Batch Befehle erkannt werden.
+﻿REM FGL 20190201:
+REM Batch zum Runterfahren und Neustarten von Win7 Rechnern REMOTE
+REM zwischen den Parametern /t: 720 muss nach dem Doppelpunkt ein Leerzeichen stehen
 
+
+REM Voraussetzungen
+REM 1. Service/Dienst RemoteRegistry auf beiden beteiligten Rechnern aktiviert und gestartet
+REM 2. Auf beiden beteiligten Rechnern in der Windows Registry folgenden Eintrag eränzt:
 REM FGL 20190201:
 REM Batch zum Runterfahren und Neustarten von Win7 Rechnern REMOTE
 REM zwischen den Parametern /t: 720 muss nach dem Doppelpunkt ein Leerzeichen stehen
@@ -11,13 +17,14 @@ REM 2. Auf beiden beteiligten Rechnern in der Windows Registry folgenden Eintrag
 REM    Abhilfe schafft der Eintrag eines Schlüssels in die Registrierdatenbank des verwalteten PCs, so dass die Rechte des lokalen Admins auch über das Netz durchgereicht werden. Dazu gibt man am einfachsten in einer Eingabeaufforderung mit Adminstratorrechten den Befehl
 REM    Dies mit cmd.exe als Admin ausführen.
 REM    reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 1 /f
+REM  
 REM    
-shutdown /f /r -m \\THEODERICH /t: 720 /c "Remote Shutdown des Hostsystems. Dringend alle Server runterfahren."
+shutdown /f /r -m \\HANNIBAL /t: 30 /c "Remote shutdown des Rechners. Dringend alle Server runterfahren."
 pause
 exit
 
 REM Das ist so nicht möglich.....
 REM falls noch spezielles erledigt werden muss. Diese Datei umbenennen z.B. nach shutdownRestartScipio.bat und dann jetzt das Spezialscript verwenden
 REM cd\
-REM cd server\script
+REM cd 1fgl\server\script
 REM start /wait onShutdownScipio.bat
