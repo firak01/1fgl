@@ -6,9 +6,12 @@ REM      HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\W32Time\TimeProvid
 REM https://www.tecchannel.de/a/windows-zeitdienst-reparieren,2033008
 REM https://docs.microsoft.com/en-us/windows-server/networking/windows-time-service/windows-time-service-tools-and-settings
 
-net Stop W32time
+net Stop w32time
 W32tm.exe /unregister
 W32tm.exe /register
-net Start W32time
+sc config w32time type= own
+net Start w32time
 
 w32tm /resync
+pause
+EOF
