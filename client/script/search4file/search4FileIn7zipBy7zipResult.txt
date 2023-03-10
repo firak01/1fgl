@@ -1,0 +1,841 @@
+
+C:\temp>"C:\Program Files\7-Zip\7z.exe" l -r "D:\Tomcat" "*fgl*.xml" 
+
+7-Zip 22.01 (x64) : Copyright (c) 1999-2022 Igor Pavlov : 2022-07-15
+
+Scanning the drive for archives:
+1 folder, 49 files, 119628341084 bytes (112 GiB)
+
+Listing archive: D:\Tomcat\branch2017_12hhn---BACKUP20200813.7z
+
+--
+Path = D:\Tomcat\branch2017_12hhn---BACKUP20200813.7z
+Type = 7z
+Physical Size = 1301016825
+Headers Size = 2309111
+Method = Delta LZMA2:26 LZMA:20 BCJ2
+Solid = +
+Blocks = 3
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\branch2017_12hhn.7z
+
+--
+Path = D:\Tomcat\branch2017_12hhn.7z
+Open WARNING: Cannot open the file as [7z] archive
+Type = zip
+ERRORS:
+Unexpected end of archive
+Offset = 8192799
+Physical Size = 147638800
+Characteristics = Local
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\branch2018_06---BACKUP20191108.7z
+
+--
+Path = D:\Tomcat\branch2018_06---BACKUP20191108.7z
+Type = 7z
+Physical Size = 1870324345
+Headers Size = 2179004
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 5
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2018-11-22 16:43:20 ....A         3053               branch2018_06\webapps\qisserver\WEB-INF\conf\cs\sys\genericSearch\conf\fgl\searchStudentReportsBasicTestFGL.xml
+2018-11-22 14:58:36 ....A         2549               branch2018_06\webapps\qisserver\WEB-INF\conf\cs\sys\genericSearch\conf\fgl\searchStudentReportsBasicTestFGL2.xml
+2019-02-01 18:09:17 ....A         1640               branch2018_06\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\degreeprogramBelongstoFGL.xml
+2019-01-22 10:12:05 ....A         2284               branch2018_06\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\degreeprogramBelongstoFGL2.xml
+2019-01-30 17:30:21 ....A         1253               branch2018_06\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\degreeprogramBelongstoFGL3.xml
+2019-01-30 17:43:22 ....A         1250               branch2018_06\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\degreeprogramBelongstoFGL4.xml
+2018-11-05 12:19:25 ....A         2788               branch2018_06\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\pdfEinbinderFGL.xml
+2018-11-05 12:20:36 ....A       180638               branch2018_06\webapps\qisserver\WEB-INF\log\pdfEinbinderFGLtest.xml
+2018-10-18 15:19:44 ....A          404               branch2018_06\webapps\qisserver\WEB-INF\log\teachingLoadFGLTEST.xml
+------------------- ----- ------------ ------------  ------------------------
+2019-02-01 18:09:17             195859   1870324345  9 files
+
+Listing archive: D:\Tomcat\branch2018_06.02_BACKUP20200327.7z
+
+--
+Path = D:\Tomcat\branch2018_06.02_BACKUP20200327.7z
+Type = 7z
+Physical Size = 1772845590
+Headers Size = 2233586
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2019-02-22 16:31:03 ....A         1640               branch2018_06.02\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\degreeprogramBelongstoFGL-BACKUP20190225.xml
+2019-02-25 14:46:29 ....A         2511               branch2018_06.02\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\degreeprogramBelongstoFGL.xml
+------------------- ----- ------------ ------------  ------------------------
+2019-02-25 14:46:29               4151   1772845590  2 files
+
+Listing archive: D:\Tomcat\branch2018_12.02---BACKUP20191106.7z
+
+--
+Path = D:\Tomcat\branch2018_12.02---BACKUP20191106.7z
+Type = 7z
+Physical Size = 1536019395
+Headers Size = 2339310
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2019-08-02 09:59:53 ....A         9035               branch2018_12.02\webapps\qisserver\WEB-INF\conf\printout\publishModul\veranstaltung\fglTest.xml
+2019-08-02 11:40:30 ....A         2986               branch2018_12.02\webapps\qisserver\WEB-INF\log\exportSerienbriefWORDListeFGL.xml
+------------------- ----- ------------ ------------  ------------------------
+2019-08-02 11:40:30              12021   1536019395  2 files
+
+Listing archive: D:\Tomcat\branch2018_12.02---BACKUP20200526.7z
+
+--
+Path = D:\Tomcat\branch2018_12.02---BACKUP20200526.7z
+Type = 7z
+Physical Size = 1559419391
+Headers Size = 2259777
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2019-08-02 09:59:53 ....A         9035               branch2018_12.02\webapps\qisserver\WEB-INF\conf\printout\publishModul\veranstaltung\fglTest.xml
+2019-08-02 11:40:30 ....A         2986               branch2018_12.02\webapps\qisserver\WEB-INF\log\exportSerienbriefWORDListeFGL.xml
+------------------- ----- ------------ ------------  ------------------------
+2019-08-02 11:40:30              12021   1559419391  2 files
+
+Listing archive: D:\Tomcat\branch2018_12.02---BACKUP20200813.7z
+
+--
+Path = D:\Tomcat\branch2018_12.02---BACKUP20200813.7z
+Type = 7z
+Physical Size = 1401294825
+Headers Size = 2260072
+Method = Delta LZMA2:26 LZMA:20 BCJ2
+Solid = +
+Blocks = 3
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2019-08-02 09:59:53 ....A         9035               branch2018_12.02\webapps\qisserver\WEB-INF\conf\printout\publishModul\veranstaltung\fglTest.xml
+2019-08-02 11:40:30 ....A         2986               branch2018_12.02\webapps\qisserver\WEB-INF\log\exportSerienbriefWORDListeFGL.xml
+------------------- ----- ------------ ------------  ------------------------
+2019-08-02 11:40:30              12021   1401294825  2 files
+
+Listing archive: D:\Tomcat\branch2018_12_BACKUP20200616.7z
+
+--
+Path = D:\Tomcat\branch2018_12_BACKUP20200616.7z
+Type = 7z
+Physical Size = 2086262233
+Headers Size = 2588355
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 5
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2018-12-05 16:40:29 ....A         9035               branch2018_12\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\fglTest.xml
+2019-06-21 08:09:35 ....A         4077               branch2018_12\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\student\publishDemoFGL.xml
+2019-06-27 08:29:54 ....A         2333               branch2018_12\webapps\qisserver\WEB-INF\log\exportSerienbriefWORDListeFGL.xml
+2018-10-15 14:31:01 ....A          749               branch2018_12\webapps\qisserver\WEB-INF\log\teachingLoadFGLTEST.xml
+------------------- ----- ------------ ------------  ------------------------
+2019-06-27 08:29:54              16194   2086262233  4 files
+
+Listing archive: D:\Tomcat\branch2019_06---BACKUP202001707.7z
+
+--
+Path = D:\Tomcat\branch2019_06---BACKUP202001707.7z
+Type = 7z
+Physical Size = 3676177102
+Headers Size = 3787611
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 6
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2019-10-30 09:03:46 ....A         5695               branch2019_06\webapps\qisserver\WEB-INF\conf\cm\app\quartzJobs\appReportJob_deaktiviertFGL.xml
+2019-08-07 11:31:59 ....A         1640               branch2019_06\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\degreeprogramBelongstoFGL-BACKUP20190225.xml
+2019-08-07 11:31:59 ....A         2511               branch2019_06\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\degreeprogramBelongstoFGL.xml
+2019-08-29 09:27:18 ....A         2006               branch2019_06\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\outputRequestBsaCertificateDetailFGL.xml
+2019-08-07 11:37:20 ....A          493               branch2019_06\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\outputRequestBsaCertificateDetailFGL2.xml
+2019-08-08 14:52:46 ....A         1103               branch2019_06\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\outputRequestBsaCertificateDetailFGL3.xml
+2019-08-08 15:27:28 ....A         1634               branch2019_06\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\outputRequestBsaCertificateDetailFGL4.xml
+2019-08-29 11:03:35 ....A         2031               branch2019_06\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\outputRequestBsCertificateDetailFGL.xml
+2019-09-06 12:27:01 ....A         2107               branch2019_06\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\outputRequestBsFilenameAccountDetailFGL.xml
+2019-09-18 13:52:11 ....A          692               branch2019_06\webapps\qisserver\WEB-INF\log\exportOutputRequestBsaCertificateDetailFGL.xml
+2019-11-27 11:30:08 ....A       894090               branch2019_06\webapps\qisserver\WEB-INF\templates\oooreporting\StudienverlaufFGL - als Beispiel fÅr Scip Parameter und Kombination von publishDataRequest und ODT - Dump.xml
+2019-11-27 11:48:51 ....A       885983               branch2019_06\webapps\qisserver\WEB-INF\templates\oooreporting\StudienverlaufFGL - als Formeltester fÅr Scip Parameter  - Dump.xml
+------------------- ----- ------------ ------------  ------------------------
+2019-11-27 11:48:51            1799985   3676177102  12 files
+
+Listing archive: D:\Tomcat\branch2019_06h---BACKUP20200416.7z
+
+--
+Path = D:\Tomcat\branch2019_06h---BACKUP20200416.7z
+Type = 7z
+Physical Size = 1404589544
+Headers Size = 2427944
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\branch2019_06h---BACKUP20200813.7z
+
+--
+Path = D:\Tomcat\branch2019_06h---BACKUP20200813.7z
+Type = 7z
+Physical Size = 1663302803
+Headers Size = 2232367
+Method = Delta LZMA2:26 LZMA:20 BCJ2
+Solid = +
+Blocks = 3
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\branch2019_06h---BACKUP20201021.7z
+
+--
+Path = D:\Tomcat\branch2019_06h---BACKUP20201021.7z
+Type = 7z
+Physical Size = 1929714914
+Headers Size = 2202634
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 5
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\branch2019_06h---BACKUP20210105.7z
+
+--
+Path = D:\Tomcat\branch2019_06h---BACKUP20210105.7z
+Type = 7z
+Physical Size = 1979180327
+Headers Size = 2294752
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 5
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\branch2019_06h-BACKUP20200409.7z
+
+--
+Path = D:\Tomcat\branch2019_06h-BACKUP20200409.7z
+Type = 7z
+Physical Size = 1656309451
+Headers Size = 2131319
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\branch2019_06HEAD---BACKUP 20210106.7z
+
+--
+Path = D:\Tomcat\branch2019_06HEAD---BACKUP 20210106.7z
+Type = 7z
+Physical Size = 1912279900
+Headers Size = 2300419
+Method = Delta LZMA2:26 LZMA:20 BCJ2
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\branch2019_12---BACKUP20200403.7z
+
+--
+Path = D:\Tomcat\branch2019_12---BACKUP20200403.7z
+Type = 7z
+Physical Size = 1659390656
+Headers Size = 2337476
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\branch2019_12---BACKUP20200423.7z
+
+--
+Path = D:\Tomcat\branch2019_12---BACKUP20200423.7z
+Type = 7z
+Physical Size = 1709941750
+Headers Size = 2332712
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\branch2019_12---BACKUP20200526.7z
+
+--
+Path = D:\Tomcat\branch2019_12---BACKUP20200526.7z
+Type = 7z
+Physical Size = 1725755057
+Headers Size = 2262655
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2020-05-13 18:19:38 ....A        10646               branch2019_12\webapps\qisserver\WEB-INF\log\exportReutlingen235533_explizt herausgestellter Dump(FGL Zweig)  nach der Fehlerbehebung.xml
+------------------- ----- ------------ ------------  ------------------------
+2020-05-13 18:19:38              10646   1725755057  1 files
+
+Listing archive: D:\Tomcat\branch2019_12---BACKUP20200707.7z
+
+--
+Path = D:\Tomcat\branch2019_12---BACKUP20200707.7z
+Type = 7z
+Physical Size = 1721246645
+Headers Size = 2348208
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 5
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2020-05-13 18:19:38 ....A        10646               branch2019_12\webapps\qisserver\WEB-INF\log\exportReutlingen235533_explizt herausgestellter Dump(FGL Zweig)  nach der Fehlerbehebung.xml
+------------------- ----- ------------ ------------  ------------------------
+2020-05-13 18:19:38              10646   1721246645  1 files
+
+Listing archive: D:\Tomcat\branch2019_12---BACKUP20210310.7z
+
+--
+Path = D:\Tomcat\branch2019_12---BACKUP20210310.7z
+Type = 7z
+Physical Size = 1661986561
+Headers Size = 2336633
+Method = Delta LZMA2:26 LZMA:20 BCJ2
+Solid = +
+Blocks = 3
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2021-01-22 17:34:24 ....A        10103               branch2019_12\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\student\augsburg\StudienzeitenUAUG_BACKUP_FGL_VERSION01.xml
+2020-05-13 18:19:38 ....A        10646               branch2019_12\webapps\qisserver\WEB-INF\log\exportReutlingen235533_explizt herausgestellter Dump(FGL Zweig)  nach der Fehlerbehebung.xml
+------------------- ----- ------------ ------------  ------------------------
+2021-01-22 17:34:24              20749   1661986561  2 files
+
+Listing archive: D:\Tomcat\branch2020_06---BACKUP20200715.7z
+
+--
+Path = D:\Tomcat\branch2020_06---BACKUP20200715.7z
+Type = 7z
+Physical Size = 1725588118
+Headers Size = 2142469
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\branch2020_06---BACKUP20201012.7z
+
+--
+Path = D:\Tomcat\branch2020_06---BACKUP20201012.7z
+Type = 7z
+Physical Size = 1759639438
+Headers Size = 2181017
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 5
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\branch2020_06.7z
+
+--
+Path = D:\Tomcat\branch2020_06.7z
+Type = 7z
+Physical Size = 1730331010
+Headers Size = 1716132
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\branch2020_06g.7z
+
+--
+Path = D:\Tomcat\branch2020_06g.7z
+Type = 7z
+Physical Size = 4757174101
+Headers Size = 2209119
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 7
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\branch2020_12g---BACKUP20210308.7z
+
+--
+Path = D:\Tomcat\branch2020_12g---BACKUP20210308.7z
+Type = 7z
+Physical Size = 4928950542
+Headers Size = 2253584
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 7
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\branch2020_12g---BACKUP20210413.7z
+
+--
+Path = D:\Tomcat\branch2020_12g---BACKUP20210413.7z
+Type = 7z
+Physical Size = 5095004548
+Headers Size = 2268678
+Method = Delta LZMA2:26 LZMA:20 BCJ2
+Solid = +
+Blocks = 5
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\branch2020_12g---BACKUP20210609.7z
+
+--
+Path = D:\Tomcat\branch2020_12g---BACKUP20210609.7z
+Type = 7z
+Physical Size = 5343466557
+Headers Size = 2284929
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 7
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\EHB2019_06---BACKUP20210106.7z
+
+--
+Path = D:\Tomcat\EHB2019_06---BACKUP20210106.7z
+Type = 7z
+Physical Size = 1409075788
+Headers Size = 2259188
+Method = Delta LZMA2:26 LZMA:20 BCJ2
+Solid = +
+Blocks = 3
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\EHB2019_06.7z
+
+--
+Path = D:\Tomcat\EHB2019_06.7z
+Type = 7z
+Physical Size = 1481188056
+Headers Size = 2347320
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\EHB2019_12---BACKUP20210106.7z
+
+--
+Path = D:\Tomcat\EHB2019_12---BACKUP20210106.7z
+Type = 7z
+Physical Size = 605696746
+Headers Size = 800297
+Method = Delta LZMA2:26
+Solid = +
+Blocks = 2
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\EHB2019_12.7z
+
+--
+Path = D:\Tomcat\EHB2019_12.7z
+Type = 7z
+Physical Size = 1671598188
+Headers Size = 2158538
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\head---BACKUP20210309.7z
+
+--
+Path = D:\Tomcat\head---BACKUP20210309.7z
+Type = 7z
+Physical Size = 6236499148
+Headers Size = 2237464
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 7
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\head---BACKUP20210309nochJava8.7z
+
+--
+Path = D:\Tomcat\head---BACKUP20210309nochJava8.7z
+Type = 7z
+Physical Size = 5552913069
+Headers Size = 2168135
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 7
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\head---BACKUP20210408-noch mit Java 8.7z
+
+--
+Path = D:\Tomcat\head---BACKUP20210408-noch mit Java 8.7z
+Type = 7z
+Physical Size = 5532864121
+Headers Size = 1788313
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 7
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\head---BACKUP20210409 - noch mit Java 8.7z
+
+--
+Path = D:\Tomcat\head---BACKUP20210409 - noch mit Java 8.7z
+Type = 7z
+Physical Size = 5532864121
+Headers Size = 1788313
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 7
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\head---BACKUP20210504.7z
+
+--
+Path = D:\Tomcat\head---BACKUP20210504.7z
+Type = 7z
+Physical Size = 6137855728
+Headers Size = 2295655
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 8
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\head.7z
+
+--
+Path = D:\Tomcat\head.7z
+Type = 7z
+Physical Size = 6269101919
+Headers Size = 2299931
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 8
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\HFBK2019_06---BACKUP20210105.7z
+
+--
+Path = D:\Tomcat\HFBK2019_06---BACKUP20210105.7z
+Type = 7z
+Physical Size = 1395693640
+Headers Size = 2258607
+Method = Delta LZMA2:26 LZMA:20 BCJ2
+Solid = +
+Blocks = 3
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\hmtmh2018_06_20200301.7z
+
+--
+Path = D:\Tomcat\hmtmh2018_06_20200301.7z
+Type = 7z
+Physical Size = 1651210450
+Headers Size = 2169840
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\HSMDSDL2018_12.7z
+
+--
+Path = D:\Tomcat\HSMDSDL2018_12.7z
+Type = 7z
+Physical Size = 1380007900
+Headers Size = 2128582
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\HSMDSDL2019_06.7z
+
+--
+Path = D:\Tomcat\HSMDSDL2019_06.7z
+Type = 7z
+Physical Size = 1445831953
+Headers Size = 2352524
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\HSMDSDL2019_12---BACKUP20210105.7z
+
+--
+Path = D:\Tomcat\HSMDSDL2019_12---BACKUP20210105.7z
+Type = 7z
+Physical Size = 1636095181
+Headers Size = 2254118
+Method = Delta LZMA2:26 LZMA:20 BCJ2
+Solid = +
+Blocks = 3
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2020-03-04 14:44:59 ....A         1499               HSMDSDL2019_12\webapps\qisserver\WEB-INF\conf\printout\publishModul\hisinone\fgl\studentFGL4HSMDSDL.xml
+------------------- ----- ------------ ------------  ------------------------
+2020-03-04 14:44:59               1499   1636095181  1 files
+
+Listing archive: D:\Tomcat\HSMDSDL2019_12h---BACKUP20210105.7z
+
+--
+Path = D:\Tomcat\HSMDSDL2019_12h---BACKUP20210105.7z
+Type = 7z
+Physical Size = 1594493103
+Headers Size = 2284485
+Method = Delta LZMA2:26 LZMA:20 BCJ2
+Solid = +
+Blocks = 3
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\HSMDSDL2019_12h---BACKUP20210106.7z
+
+--
+Path = D:\Tomcat\HSMDSDL2019_12h---BACKUP20210106.7z
+Type = 7z
+Physical Size = 531
+Headers Size = 531
+Solid = -
+Blocks = 0
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\katho2018_06.7z
+
+--
+Path = D:\Tomcat\katho2018_06.7z
+Type = 7z
+Physical Size = 1670040702
+Headers Size = 2114940
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\katho2019_06---BACKUP20191021.7z
+
+--
+Path = D:\Tomcat\katho2019_06---BACKUP20191021.7z
+Type = 7z
+Physical Size = 1435483683
+Headers Size = 2348811
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\katho2019_06---BACKUP20200928.7z
+
+--
+Path = D:\Tomcat\katho2019_06---BACKUP20200928.7z
+Type = 7z
+Physical Size = 1391755056
+Headers Size = 2278315
+Method = Delta LZMA2:26 LZMA:20 BCJ2
+Solid = +
+Blocks = 3
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\katho2019_06---BACKUP20201021.7z
+
+--
+Path = D:\Tomcat\katho2019_06---BACKUP20201021.7z
+Type = 7z
+Physical Size = 1443845033
+Headers Size = 2278124
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 4
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files
+
+Listing archive: D:\Tomcat\Tomcat-Git.7z
+
+--
+Path = D:\Tomcat\Tomcat-Git.7z
+Type = 7z
+Physical Size = 4431183741
+Headers Size = 2324094
+Method = Delta LZMA2:24 BCJ
+Solid = +
+Blocks = 7
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2021-10-21 12:40:57 ....A        12726               Tomcat-Git\webapps\qisserver\WEB-INF\conf\cs\sys\genericSearch\conf\cm\exa\coursemanagement\search\searchCoursesStaff4ExcelFGL.xml
+------------------- ----- ------------ ------------  ------------------------
+2021-10-21 12:40:57              12726   4431183741  1 files
+
+------------------- ----- ------------ ------------  ------------------------
+2021-10-21 12:40:57            2108518  25078610066  39 files
+
+Archives: 49
+Volumes: 49
+Total archives size: 119628341084
+
+Warnings: 1
+
+Errors: 1
