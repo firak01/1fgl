@@ -23,6 +23,7 @@ server/*
 # Auch im Sever Script Verzeichnis alles ignorieren, ausser timesync, etc. ...
 !server/script
 server/script/*
+!server/script/killtask
 !server/script/PowerManagerEnergenieLAN
 !server/script/timesync
 !server/script/shutdown
