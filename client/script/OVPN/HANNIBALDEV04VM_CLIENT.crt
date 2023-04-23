@@ -1,0 +1,75 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 4 (0x4)
+    Signature Algorithm: md5WithRSAEncryption
+        Issuer: C=DE, ST=PREUSSEN, L=BERLIN, O=OpenVPN, OU=TEST, CN=PAUL.HINDENBURG/name=PAUL.HINDENBURG/emailAddress=paul.hindenburg@mailinator.com\x09
+        Validity
+            Not Before: Jan 14 20:02:10 2020 GMT
+            Not After : Jan 11 20:02:10 2030 GMT
+        Subject: C=DE, ST=PREUSSEN, L=BERLIN, O=OpenVPN, OU=TEST, CN=HANNIBALDEV04VM_CLIENT/name=HANNIBALDEV04VM/emailAddress=paul.hindenburg@mailinator.com\x09
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:c9:8c:e4:42:0e:0f:38:1d:d0:ad:3b:e1:25:62:
+                    f4:83:d5:80:b7:fc:32:12:b7:05:d2:af:b1:f7:53:
+                    8f:db:24:5a:ea:6e:39:25:ca:da:f7:94:14:51:9d:
+                    8a:cd:b2:31:1d:ea:28:36:4d:4b:4d:0e:ea:2f:5d:
+                    f3:d1:fb:2e:4f:e4:cb:19:e0:63:78:4f:54:6a:ed:
+                    99:01:4a:88:92:58:2d:73:83:6c:77:81:54:28:fc:
+                    9b:45:1c:c3:37:e0:54:63:78:82:da:9d:76:06:a3:
+                    67:3e:5a:1d:e4:be:b6:b8:18:bb:01:f5:ea:e9:5e:
+                    d3:8d:75:76:a4:c2:79:9d:bd
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                BC:D3:A5:E0:62:CE:D9:3F:02:69:F6:BA:D9:ED:B9:94:FD:4C:75:26
+            X509v3 Authority Key Identifier: 
+                keyid:31:98:34:0C:3D:3A:B4:03:D9:0F:56:3D:81:41:02:A4:12:C4:A6:FB
+                DirName:/C=DE/ST=PREUSSEN/L=BERLIN/O=OpenVPN/OU=TEST/CN=PAUL.HINDENBURG/name=PAUL.HINDENBURG/emailAddress=paul.hindenburg@mailinator.com\x09
+                serial:89:A8:CE:60:25:9A:F3:D3
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: md5WithRSAEncryption
+         22:dd:68:3d:53:1a:18:a6:fb:6b:31:2e:3c:0d:83:5e:ba:02:
+         8b:93:4e:cb:6f:4b:b1:72:1c:56:46:a4:f1:5b:e2:3a:25:af:
+         cd:af:99:e2:c3:42:4f:3f:77:fb:8e:e1:31:8f:35:84:d5:14:
+         57:5c:a6:28:00:f6:7a:85:22:51:4c:f3:e2:92:b9:c5:4b:31:
+         5e:6b:cd:f8:06:a6:8f:ab:42:ee:51:cf:e9:94:51:cf:97:cf:
+         39:69:88:13:78:1b:0c:5d:7f:6c:59:2e:41:e6:e8:82:10:b7:
+         79:6c:2a:27:7d:28:ec:a2:66:8b:0b:a8:81:b2:90:e5:29:20:
+         62:43
+-----BEGIN CERTIFICATE-----
+MIIEWjCCA8OgAwIBAgIBBDANBgkqhkiG9w0BAQQFADCBtjELMAkGA1UEBhMCREUx
+ETAPBgNVBAgTCFBSRVVTU0VOMQ8wDQYDVQQHEwZCRVJMSU4xEDAOBgNVBAoTB09w
+ZW5WUE4xDTALBgNVBAsTBFRFU1QxGDAWBgNVBAMTD1BBVUwuSElOREVOQlVSRzEY
+MBYGA1UEKRMPUEFVTC5ISU5ERU5CVVJHMS4wLAYJKoZIhvcNAQkBFh9wYXVsLmhp
+bmRlbmJ1cmdAbWFpbGluYXRvci5jb20JMB4XDTIwMDExNDIwMDIxMFoXDTMwMDEx
+MTIwMDIxMFowgb0xCzAJBgNVBAYTAkRFMREwDwYDVQQIEwhQUkVVU1NFTjEPMA0G
+A1UEBxMGQkVSTElOMRAwDgYDVQQKEwdPcGVuVlBOMQ0wCwYDVQQLEwRURVNUMR8w
+HQYDVQQDFBZIQU5OSUJBTERFVjA0Vk1fQ0xJRU5UMRgwFgYDVQQpEw9IQU5OSUJB
+TERFVjA0Vk0xLjAsBgkqhkiG9w0BCQEWH3BhdWwuaGluZGVuYnVyZ0BtYWlsaW5h
+dG9yLmNvbQkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMmM5EIODzgd0K07
+4SVi9IPVgLf8MhK3BdKvsfdTj9skWupuOSXK2veUFFGdis2yMR3qKDZNS00O6i9d
+89H7Lk/kyxngY3hPVGrtmQFKiJJYLXODbHeBVCj8m0UcwzfgVGN4gtqddgajZz5a
+HeS+trgYuwH16ule0411dqTCeZ29AgMBAAGjggFtMIIBaTAJBgNVHRMEAjAAMC0G
+CWCGSAGG+EIBDQQgFh5FYXN5LVJTQSBHZW5lcmF0ZWQgQ2VydGlmaWNhdGUwHQYD
+VR0OBBYEFLzTpeBiztk/Amn2utntuZT9THUmMIHrBgNVHSMEgeMwgeCAFDGYNAw9
+OrQD2Q9WPYFBAqQSxKb7oYG8pIG5MIG2MQswCQYDVQQGEwJERTERMA8GA1UECBMI
+UFJFVVNTRU4xDzANBgNVBAcTBkJFUkxJTjEQMA4GA1UEChMHT3BlblZQTjENMAsG
+A1UECxMEVEVTVDEYMBYGA1UEAxMPUEFVTC5ISU5ERU5CVVJHMRgwFgYDVQQpEw9Q
+QVVMLkhJTkRFTkJVUkcxLjAsBgkqhkiG9w0BCQEWH3BhdWwuaGluZGVuYnVyZ0Bt
+YWlsaW5hdG9yLmNvbQmCCQCJqM5gJZrz0zATBgNVHSUEDDAKBggrBgEFBQcDAjAL
+BgNVHQ8EBAMCB4AwDQYJKoZIhvcNAQEEBQADgYEAIt1oPVMaGKb7azEuPA2DXroC
+i5NOy29LsXIcVkak8VviOiWvza+Z4sNCTz93+47hMY81hNUUV1ymKAD2eoUiUUzz
+4pK5xUsxXmvN+Aamj6tC7lHP6ZRRz5fPOWmIE3gbDF1/bFkuQeboghC3eWwqJ30o
+7KJmiwuogbKQ5SkgYkM=
+-----END CERTIFICATE-----
