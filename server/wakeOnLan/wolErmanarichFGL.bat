@@ -6,9 +6,10 @@ REM In das Verzeichnis der EXE-Wechseln
 cd mc-wol
 
 REM Physikalische Adresse hier ERMANARICH:
-REM: Laut BIOS
-REM: mc-wol 54:E1:AD:5D:E9:06
+REM: Laut BIOS, und wenn Docking Stations Thunderbold angeschlossen und erlaubt ist.
+mc-wol 54:E1:AD:5D:E9:06
 
 REM: Docking Station?
-mc-wol A0:AF:BD:16:00:F3
+REM: mc-wol A0:AF:BD:16:00:F3
+REM: mc-wol 00:50:B6:A7:03:02
 pause
