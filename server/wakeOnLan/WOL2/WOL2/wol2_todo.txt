@@ -1,0 +1,10 @@
+ WOL 2 Todo
+============
+
+- Req: ARP for Linux & Mac OS X
+
+
+Visit www.oette.info to see if one of these points have been fixed yet :-)
+
+If you have additional ideas or in case you have found a bug do not hesitate to 
+contact me. (marko@oette.info)
