@@ -1,0 +1,385 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+						"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+  <head>
+	<title>Wake On Lan Tool 2 Onlinehilfe</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=UTF8">
+	
+	<style type="text/css">
+		a:link { text-decoration:none; color:#333399; }
+		a:visited { text-decoration:none; color:#333399; }
+		a:hover { text-decoration:none; color:#ffffff; background-color:#66CCFF; }
+		a:active { text-decoration:none; color:#ffffff; background-color:#0066CC; }
+		a:focus { text-decoration:none; color:#ffffff; background-color:#0066CC; }
+		.headline { padding-bottom:20px; font-family:Arial,sans-serif; font-size:22px; font-weight:bold; color:#000066; text-align:center; }
+		.subtitle { padding-top: 10px; padding-bottom:20px; border-top: 1px solid #000066; font-family:Arial,sans-serif; font-size:15px; font-weight:bold; color:#000066 }
+		.content { padding-bottom: 20px; font-family:Arial,sans-serif; font-size:12px; color:#000066; text-align: justify}
+		.rmTable th { font-family:Arial,sans-serif; font-size:12px; color:#000066; background-color:#eeeeee; border:1px solid #eee; }
+		.rmTable td { font-family:Arial,sans-serif; font-size:12px; color:#000066; border:1px solid #eee; padding:5px; }
+		.rmTable { font-family:Arial,sans-serif; font-size:12px; color:#000066; border:1px solid #eee; }
+
+		.impress { font-family:Arial,sans-serif; font-size:10px; color:#000066 }
+		.container { width:800px; text-align: left; }
+		body { text-align: center; margin: 10 auto; background: url(bkg.png) repeat-x }
+	</style>
+	
+	<base target="_top">
+  </head>
+
+  <body>
+
+	<div class="container">
+
+		<div class="headline">
+		Wake On Lan Tool 2 Hilfe
+		</div>
+
+		<div class="subtitle">Inhalt</div>
+		<div class="content">
+		Das ist die Onlinehilfe zum Wake On Lan Tool 2.<br>
+		Bitte wählen Sie eines der folgenden Themen:<br>
+
+		<ul>
+		<li> <a href="#Intro">Einleitung</a>
+		<li> <a href="#WOLHow">Wie funktioniert Wake On Lan?</a>
+		<li> <a href="#UseWOLTool">Das Wake On Lan Tool 2 benutzen</a>
+		<li> <a href="#UseGroups">Gruppen benutzen</a>
+		<li> <a href="#UseNetScanner">Der Netzwerkscanner</a>
+		<li> <a href="#cmd">Kommandozeilenparameter</a>
+		<li> <a href="#SysReq">System Anforderungen</a>
+		<li> <a href="#ChangeLog">Änderungsprotokoll</a>
+		<li> <a href="#FAQ">Häufig gestellte Fragen</a>
+		</ul>
+		</div>
+
+		<div class="subtitle"><a name="Intro">Einleitung</a></div>
+		<div class="content">
+		Wenn man noch nie etwas von "Wake On Lan", kurz "WOL", gehört hat, fragt 
+		man sich vielleicht "Wofür ist dieses Tool denn gut?".
+		<br/>
+		Hatten Sie schon Mal das Problem, dass Sie mit einem Computer in einem 
+		anderen Raum oder Büro arbeiten wollten, dieser Computer aber leider 
+		nicht eingeschaltet war? Wenn der entfernte Rechner Wake on Lan (WOL) 
+		unterstützt ist das mit diesem Programm kein Problem mehr.
+		<br><br>
+		Mit diesem Programm können Sie alle WOL tauglichen Rechner in Ihrem 
+		Netzwerk einschalten. Außerdem verfügt das Programm über eine Funktion,
+		die Rechner auch wieder herunter zu fahren oder neu zu starten.
+		<br><br>
+		Die Rechner können Sie dabei einzeln oder in Gruppen steuern und überwachen.
+		Über einen Wochen Timer können Sie das Programm auch alle Aufgaben 
+		automatisieren lassen.
+		</div>
+
+		<div class="subtitle"><a name="WOLHow">Wie funktioniert Wake On Lan?</a></div>
+		<div class="content">
+		Jeder Computer in einem Netzwerk hat einen Namen (DNS Name), 
+		eine Adresse (IP Adresse) jede Netzwerkkarte hat zudem eine 
+		physikalische Adresse (MAC Adresse).
+		<br><br>
+		Ein WOL fähiger Computer verfügt über eine Netzwerkkarte, welche den 
+		Netzwerkverkehr immer abhört. (Auch wenn der Computer herunter gefahren ist.) 
+		Ein Kennzeichen dafür sind die blinkenden LEDs neben dem Netzwerkkabel.
+		<br><br>
+		Wenn ein spezielles Paket (<b>Magic Paket</b>) von der Karte empfangen wird,
+		prüft die Karte, ob es an ihre physikalische Adresse (MAC) gesendet wurde.
+		(Die Netzwerkkarte kennt weder den DNS Namen noch die IP Adresse.) Stimmt 
+		die Adresse im Paket mit der eigenen überein, so löst die Karte das 
+		Hochfahren des Rechners aus.
+		<br><br>
+		Um WOL zu nutzen, muss man diese Funktion im BIOS des zu weckenden 
+		Rechners aktivieren. Bei vielen neuen Rechnern ist diese Funktion 
+		standardgemäß aktiviert. Wenn Sie glauben, Ihr Rechner reagiere nicht 
+		auf WOL Pakete, konsultieren Sie das Handbuch zum Mainboard oder suchen 
+		Sie im BIOS nach Schaltern wie "Wake On Lan", "Wake on PCI" oder 
+		"Wake by Network".
+		<br><br>
+		Ältere Computer (&lt;1999) unterstützen Wake on Lan idR. nicht.
+		<br><br>
+		Um WOL auch über das Internet zu nutzen, müssen Sie Ihren Router / Ihre 
+		Firewall entsprechend konfigurieren. Der Port, auf dem der WOL UDP Broadcast 
+		gesendet wird, ist 7 (ECHO). Stellen Sie sicher, dass dieser in Ihr 
+		lokales Netzwerk geroutet wird. (Entweder an die Broadcastadresse oder 
+		direkt an den Zielrechner. zB. Port 7 UDP auf 192.160.0.255 oder 
+		ff:ff:ff:ff:ff:ff)
+		</div>
+
+		<div class="subtitle"><a name="UseWOLTool">Das Wake On Lan Tool 2 benutzen</a></div>
+		<div class="content">
+		Das Wake On Lan Tool ist so konzipiert, dass jeder damit umgehen kann.
+		Egal ob Anfänger, Fortgeschrittener oder Profi. Die Ziele bei der 
+		Entwicklung waren Einfachheit, Stabilität, Funktionalität und 
+		Portabilität (Ausführbar auf möglichst vielen Computern). 
+		Zu welcher Benutzergruppe sie auch gehören, das Tool wurde so gestaltet, 
+		dass es Ihnen hilft, das zu tun, was Sie wollen.<br><br>
+		Das Wake On Lan Tool 2 wird als ein 7-Zip Archiv ausgeliefert. Es wurde 
+		bewusst auf ein Setup / eine Installationsroutine verzichtet.		
+		Um das Archiv zu entpacken benötigen Sie den kostenlosen 
+		<a href="http://www.7-zip.org/">7-Zip Archiver</a>, welcher für viele 
+		Plattformen verfügbar ist.<br><br>
+		Nachdem Sie das Archiv entpackt haben, starten Sie das Programm, indem
+		Sie doppelt auf das WOL2 Icon klicken. Wenn Sie Mac OS oder GNU/Linux 
+		benutzen müssen Sie das Skript WOL2.sh oder den MONO Lader verwenden. 
+		Wenn das Tool nicht startet, prüfen Sie bitte ob Ihr Rechner die 
+		<a href="#SysReq">System Anforderungen</a> erfüllt.<br><br>
+		Wenn das Tool läuft, sehen Sie das Hauptfenster. Beim ersten Start wird 
+		automatisch eine leere Datei angelegt, in die Sie nun neue Rechner 
+		einpflegen können. Das können Sie entweder manuell über den Knopf 
+		"Add Host" tun, oder Sie lassen das Tool automatisch nach allen 
+		Rechnern im Netzwerk suchen. Siehe dazu <a href="#UseNetScanner">Netzwerk 
+		Scanner</a>.<br/><br/>
+		Nachdem Sie alle Rechner hinzugefügt haben, speichern Sie die Datei 
+		mithilfe des "Save File" Knopfes.<br><br>
+		Um einen oder mehrere Rechner aufzuwecken, neu zu starten oder herunter 
+		zu fahren wählen Sie diese (mit Strg) aus und klicken dann den 
+		entsprechenden Knopf in der Toolbar. ('Wake', 'Reboot' oder 'Shutdown')
+		Sie können die Einstellungen für das Herunterfahren und Neustarten im 
+		Optionsdialog festlegen.<br><br>
+		<b>Herunterfahren und Neustarten wird im Moment nur für Windowsrechner 
+		unterstützt.</b>
+		<br><br>
+		Sie können außerdem Timer festlegen, um einen oder mehrere Rechner Tool 
+		automatisch zu bestimmten Zeiten wecken oder herunterfahren zu lassen.
+		Dazu selektieren Sie einen Rechner und betätigen den 'Edit Timer' Knopf
+		um den 'Edit Timer' Dialog zu öffnen.<br><br>
+		</div>
+		
+		<div class="subtitle"><a name="UseGroups">Gruppen benutzen</a></div>
+		<div class="content">
+		Das Wake On Lan Tool 2 ermöglicht es, Ihr Netzwerk in Gruppen zu organisieren.
+		(Arbeitsplätze, Server, Drucker etc.) Um eine neue Gruppe zu definieren 
+		klicken Sie mit der rechten Maustaste auf den Tab 'All' im Hauptfenster. 
+		Aus dem Kontextmenü wählen Sie 'Add Group...'. Im folgenden Fenster 
+		geben Sie den Namen der neuen Gruppe an und klicken 'Ok'.<br><br>
+		Um einen Rechner einer bestimmten Gruppe zuzuordnen klicken Sie ihn mit 
+		der rechten Maustaste an, und wählen die Option 'Add to group', um den 
+		Rechner einer Gruppe hinzuzufügen. Diesen Vorgang können Sie beliebig 
+		oft wiederholen, um einen Rechner in mehrere Gruppen einzuordnen .Die 
+		Option 'Set group' entfernt den Rechner aus seinen bisherigen Gruppen 
+		und fügt in in die selektierte ein. Sie können die Gruppenzugehörigkeit 
+		auch im 'Edit Host' Dialog bearbeiten.<br/><br/>
+		Um eine Gruppe umzubenennen oder zu löschen aktivieren Sie diese 
+		zunächst, indem Sie den zugehörigen Tab anklicken. Danach klicken Sie 
+		mit der rechten Maustaste auf den Tab und wählen 'Rename Group...' um 
+		die Gruppe umzubenennen oder 'Remove Group...' um die Gruppe zu löschen.
+		Wenn Sie eine Gruppe umbenennen, ändert das Tool automatisch die 
+		Gruppenzugehörigkeit der bisher zugehörigen Rechner.<br><br>
+		Gruppen verfügen auch über Timer.
+		</div>
+		
+		<div class="subtitle"><a name="UseNetScanner">Der Netzwerkscanner</a></div>
+		<div class="content">
+		Der Netzwerkscanner ist eine einfache aber effiziente Möglichkeit eine 
+		Hosts-Datei zu erstellen oder zu aktualisieren.<br><br>
+		Durch wählen der Option 'Scan for new hosts' im Menü 'Edit' des 
+		Hauptfensters wird der automatische Scanner gestartet. Er durchsucht 
+		automatisch alle Netzwerke, an die der Rechner 
+		angeschlossen ist nach eingeschalteten Rechnern. Gefundene Rechner fügt 
+		er in die aktuell geöffnete Hosts-Datei ein.<br><br>
+		Eine weitere Option ist der Menüpunkt 'Open Networkscanner...'. Durch 
+		diesen Menüpunkt wird der bereits von WOL Classic bekannte Netzwerkscanner
+		gestartet. Mit Hilfe dieses Scanners können Sie Netzwerke ahand spezieller
+		Kriterien durchsuchen. Der Netzwerkscanner ermittelt automatisch alle im
+		Rechner installierten Netzwerkkarten und die Netzwerke an die diese 
+		angeschlossen sind. Sie können aber auch direkt den zu durchsuchenden 
+		Netzwerkbereich eingeben. Dazu verwenden Sie bitte das Format 
+		"Start IP - End IP / Netzmaske". Durch bet&auml;tigen des Buttons 'Add' 
+		werden die neuen Hosts der aktuell geöffneten Hostliste hinzugefügt. 
+		(Dies wird erst nach dem Schließen des Scanners sichtbar.)<br><br>
+		Das Verhalten beider Scanner bzgl. fehlender Informationen wie MAC 
+		Adresse oder Hostnamen können Sie im Options-Dialog (Menü 'Edit' -&gt; 
+		'Options') konfigurieren.<br><br>
+		Der Netzwerkscanner sendet an jede IP Adresse im angegebenen Bereich 
+		eine ICMP ECHO Anforderung. Weitere Informationen erhalten Sie im <a href="http://www.ietf.org/" target="_blank">RFC 792</a>.<br><br>
+		<b>Beide Scanner können momentan nur auf Windowsrechnern MAC Adressen 
+		ermitteln.</b>
+		</div>
+		
+		<div class="subtitle"><a name="cmd">Kommandozeilenparameter</a></div>
+		<div class="content">
+		<table class="rmTable">
+		  <thead>
+			<tr>
+			    <th>Schalter</td>
+				<th>Bedeutung</td>
+			</tr>
+		  </thead>
+		  <tr>
+		    <td>-file [parameter]</td>
+		    <td>Weist das WOL Tool 2 an, die Datei [parameter] zu öffnen.</td>
+		  </tr>
+		  <tr>
+		    <td>-wake [parameter1;parameter2;...]</td>
+		    <td>Weist das WOL Tool 2 an, die Rechner [parameter1;parameter1;...] zu wecken.</td>
+		  </tr>
+		  <tr>
+		    <td>-reboot [parameter1;parameter2;...]</td>
+		    <td>Weist das WOL Tool 2 an, die Rechner [parameter1;parameter1;...] neu zu starten.</td>
+		  </tr>
+		  <tr>
+		    <td>-shutdown [parameter1;parameter2;...]</td>
+		    <td>Weist das WOL Tool 2 an, die Rechner [parameter1;parameter1;...] herunter zu fahren.</td>
+		  </tr>
+		  <tr>
+		    <td>-wakegrp [parameter1;parameter2;...]</td>
+		    <td>Weist das WOL Tool 2 an, die Gruppen [parameter1;parameter1;...] zu wecken.</td>
+		  </tr>
+		  <tr>
+		    <td>-rebootgrp [parameter1;parameter2;...]</td>
+		    <td>Weist das WOL Tool 2 an, die Gruppen [parameter1;parameter1;...] neu zu starten.</td>
+		  </tr>
+		  <tr>
+		    <td>-shutdowngrp [parameter1;parameter2;...]</td>
+		    <td>Weist das WOL Tool 2 an, die Gruppen [parameter1;parameter1;...] herunter zu fahren.</td>
+		  </tr>
+		  <tr>
+		    <td>-close</td>
+		    <td>Weist das WOL Tool 2 an, sich nach ausführung der vorherigen Aktionen wieder zu beenden.</td>
+		  </tr>
+		</table>
+		<br/>
+		<b>Ein Beispiel:</b> <br/>
+		<i>WOL2.exe -file home.xml -wake PC1;Printer -close</i><br/><br/>
+		Das Tool weckt die in der Datei 'home.xml' gespeicherten Rechner 'PC1' 
+		und 'Printer' und beendet sich anschließend wieder.
+
+		</div>
+
+		<div class="subtitle"><a name="SysReq">System Anforderungen</a></div>
+		<div class="content">
+		Das Wake On Lan Tool 2 ist eine komplette Neuentwicklung auf Basis des 
+		erfolgreichen Wake On Lan Tool Classic. Das WOL Tool 2 ist in C# 
+		entwickelt und erfordert entweder das 
+		<a href="http://www.microsoft.com/downloads/details.aspx?familyid=10cc340b-f857-4a14-83f5-25634c3bf043&displaylang=en">.NET Runtime Framework (3.5 oder Neuer)</a> 
+		für Windows oder das <a href="http://www.mono-project.com/Main_Page">MONO 
+		Runtime Framework</a> für GNU/Linux und MacOS X.<br/>
+		Bitte beachten Sie, dass das Wake On Lan Tool 2 im Moment nur in IPv4 
+		Netzwerken arbeitet. Das Vorhandensein eines IPv6 Stacks sollte 
+		die Funktionalität jedoch nicht beeinträchtigen.
+		<br><br>
+		Getestete Betriebssysteme:
+		<ul>
+		<li> Windows XP Pro SP3 </li>
+		<li> Windows Vista Ultimate </li>
+		<li> Windows 7 32+64 Bit</li>
+		<li> Ubuntu 8.10 (läuft, WOL nicht getestet) </li>
+		</ul>
+		</div>
+		
+		<div class="subtitle"><a name="ChangeLog">Änderungsprotokoll</a></div>
+		<div class="content">
+		<b>Version 2.0.1.1:</b>
+		<ul>
+		<li> Benötigt .NET 3.5 </li>
+		<li> Sortierung der Liste ist sichtbar und wird gespeichert </li>
+		<li> Kontextmenü für das TrayIcon hinzugefügt </li>
+		<li> Minimieren in den Tray kann abgeschaltet werden (optional) </li>
+		<li> Bestätigungspflicht für Aktionen wie Herunterfahren/Neustarten/Aufwecken (optional) </li>
+		<li> Kommando ausführen, wenn sich der Status eines Hosts ändert </li>
+		</ul>
+		<b>Version 2.0.1.0:</b>
+		<ul>
+		<li> Absturz beim Öffnen einer Hostliste behoben.</li>
+		<li> Recent Liste hinzugefügt</li>
+		<li> About Screen zeigt Versionsnummer an</li>
+		<li> Korrekte Versionierung ;-)</li>
+		</ul>
+		<b>Version 2.0.0.21441:</b>
+		<ul>
+		<li> Absturz beim Setzen / Umschalten von Gruppen behoben. (Trat nur bei neu gescannten Hosts auf.)</li>
+		<li> WOL2 erkennt nun die Windows Version und setzt den Parameterstring für das Shutdown Kommando entsprechend. (Danke an Christoph)</li>
+		<li> Online Check überarbeitet</li>
+		<li> Tschechische Übersetzung von Jan Bartoň</li>
+		</ul>
+		<b>Version 2.0.0.24890:</b>
+		<ul>
+		<li> Automatisches neusortieren der Liste </li>
+		<li> Systemtray Icon + Benachrichtigungen </li>
+		<li> Minimieren in den Systemtray </li>
+		<li> Scannen von großen Netzwerken >255 Hosts ermöglicht </li>
+		<li> Scannen von IP Bereichen mit Start / Ende ungleich 0 / 255 ermöglicht. </li>
+		<li> Der Netzwerkscanner aktualisiert Hosts, wenn diese schon vorhanden sind. </li>
+		<li> Pause zwischen dem Versenden von WOL Paketen ist nun einstellbar. [Allgemein]</li>
+		</ul>
+		<b>Version 2.0.0.27412:</b>
+		<ul>
+		<li> Färbung der Statusspalte abhängig vom Status (optional) </li>
+		<li> Automatisches speichern der Hostliste bei jeder Änderung (optional) </li>
+		<li> Deutsche Übersetzung </li>
+		<li> Toolbar Knopf "Timer bearbeiten" wurde entfernt und durch Einträge im Kontextmenü ersetzt </li>
+		<li> Timer für Herunterfahren und Neustarten für Hosts und Gruppen </li>
+		<li> Kommandozeilenparameter für Herunterfahren und Neustarten von Hosts </li>
+		<li> Kommandozeilenparameter für das Arbeiten mit Gruppen </li>
+		</ul>
+		<br/>
+		<b>Version 2.0.0.24533:</b>
+		<ul>
+		<li> CSV Export hinzugefügt </li>
+		<li> MAC Adressen Normalisierung hinzugefügt </li>
+		</ul>
+		<br/>
+		<b>Version 2.0.0.25203:</b>
+		<ul>
+		<li> IPv6 Filter hinzugefügt </li>
+		<li> Netzwerkscanner Dialog hinzugefügt </li>
+		</ul>
+		<br/>
+		<b>Version 2.0.0.23969:</b>
+		<ul>
+		<li> Protokollierung hinzugefügt </li>
+		</ul>
+		<br/>
+		<b>Version 2.0.0.20467:</b>
+		<ul>
+		<li> Fehler: "Absturz beim Beenden des Tools" - behoben </li>
+		<li> Fehler: "Einstellungen werden beim Beenden nicht gespeichert" - behoben </li>
+		</ul>
+		<br/>
+		<b>Version 2.0.0:</b>
+		<ul>
+		<li> Initiale Revision </li>
+		</ul>
+		</div>
+		
+		<div class="subtitle"><a name="FAQ">Häufig gestellte Fragen</a></div>
+		<div class="content">
+		<b>Wie funktioniert das Herunterfahren / Neustarten von Windowsrechnern?</b><br/>
+			
+		Damit das Herunterfahren klappt, muss der Benutzer unter dem das Wake On 
+		Lan Tool ausgeführt wird das Recht haben, die Zielrechner herunter zu fahren. <br/><br/>
+
+		Prüfen Sie zunächst über die Kommandozeile und den Befehl „shutdown –s 
+		-t 10 –m \\computername“ vom Wake On Lan Hostrecher aus, ob Sie den 
+		Zielrechner manuell herunter fahren können. <br/><br/>
+		Ist dies der Fall, verfügen Sie bereits über das Recht und Sie müssen 
+		das WOL Tool nur noch entsprechend konfigurieren. Sehen Sie dazu bitte 
+		im Optionen Dialog nach. <br><br/>
+		Sollten Sie jedoch eine Meldung bekommen, dass der Zugriff verweigert 
+		wurde, führen Sie folgende Schritte durch: 
+		<ul>
+		<li>Melden Sie sich als Administrator auf dem Zielrechner an
+		<li>Öffnen Sie über Start -> Ausführen die Gruppenrichtlinien ("gpedit.msc")
+		<li>Fügen Sie unter dem Punkt  "Computerkonfiguration -&lt; Windows-Einstellungen 
+		-&lt; Sicherheitseinstellungen -&lt; Lokale Richtlinien -&lt; Zuweisen von Benutzerrechten 
+		-&lt; Erzwingen des Herunterfahrens von einem Remotesystem aus" den 
+		Benutzer "Jeder" oder Ihren Domänenbenutzer hinzu
+		<li>Prüfen Sie durch Eingabe des og. „shutdown“ Befehls auf dem Wake On Lan Host Rechner, ob sie den Zielrechner nun herunter fahren können
+		</ul>
+
+		</div>
+
+		<br>
+		<hr>
+		<br>
+
+		<center>
+		<div class="impress">
+		Das Wake On Lan Tool ist &copy; 2004 - 2009 by <a href="mailto:marko_AT_oette.info">Marko Oette</a>. Weitere Informationen: <a href="http://www.oette.info">www.oette.info</a>
+		</div>
+		</center>
+
+	</div> <!-- class="container" -->
+  </body>
+</html>
