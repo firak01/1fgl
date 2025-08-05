@@ -12,4 +12,5 @@ REM 20250119 - Funktioniert mit der APP und mit dieser Datei, aber nur wg. der I
 REM Physikalische Adresse hier ERMANARICH:
 mc-wol 54:E1:AD:5D:E9:06 /a 192.168.3.164
 
+
 pause
