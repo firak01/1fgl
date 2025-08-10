@@ -3,32 +3,50 @@ REM ========================================
 REM Batch-Datei: .mpg-Dateien im Verzeichnis indizieren (Avidemux CLI)
 REM ========================================
 
+REM echo Erster Übergabeparameter %1
+if [%1]==[] GOTO :paramcheck
+
+REM Variablen zur Laufzeit erweitern, nicht beim Parsen, also auch in einer Schleife als Neuberechnung
+REM z.B. SETLOCAL
+REM      set "_var=first"
+REM      set "_var=second" & Echo %_var%
+REM      führt zur Ausgabe von first.   Grund: %_var% wurde in den speicher gelesen, bevor das 2. Set wirkte (also beim  Parsen)
+REM  
+REM Demgegenüber
+REM z.B. SETLOCAL EnableDelayedExpansion
+REM      set "_var=first"
+REM      set "_var=second" & Echo %_var% !_var!
+REM      führt zur Ausgabe von first second   Grund: !_var! wurde so spät als möglich in den Speicher gelesen (also zur Laufzeit)
+setlocal EnableDelayedExpansion
+
+
 REM Pfad zu Avidemux CLI definieren
-set "avidemux=C:\Program Files\Avidemux 2.7 - 32 bits\avidemux_cli.exe"
+REM set "avidemux=C:\Program Files\Avidemux 2.8 VC++ 64bits\avidemux_cli.exe"
+set "avidemux=C:\Program Files\Avidemux 2.8 VC++ 64bits\avidemux.exe"
 
-REM Prüfen, ob überhaupt ein Verzeichnis oder Datei übergeben wurde
-if "%~1"=="" (
-    echo Bitte einen Ordner oder eine Datei per Drag & Drop auf diese Batch ziehen.
-    pause
-    exit /b
-)
 
-REM Falls eine Datei übergeben wurde → deren Ordner verwenden
-if not exist "%~1\" (
-    set "folder=%~dp1"
-) else (
-    set "folder=%~1"
-)
+REM Die tilde ~ soll bewirken, dass ein umgebenden Hochkomma entfernt wird
+:mainLoop
+    echo Indiziere: %1
+	
+	REM das entfernt das erste und das letzte Hochkomma
+	SET filetotal=%~1
+	echo Indiziere filetotal: %~1
+	
+	REM Auf das Hochkomma als ersten Buchstaben zu prüfen ist irgendwie nicht möglich.
+    REM aber durch den Trick mit SET filetotal=%~1 werden erste und letze Hochkomma entfernt
+    "%avidemux%" --autoindex --load "%filetotal%" --quit )
+	shift
+    echo.xxx Ende der Dateiindizierung xxx
+	if not "%~1"=="" goto mainLoop
+goto :ende
 
-echo Verwende Ordner: "%folder%"
-echo.
+:paramcheck
+	echo 'Bitte eine oder mehrere Dateien per Drag ^& Drop auf diese Batch ziehen.'
+	pause
+	goto :eof
 
-REM Schleife über alle .mpg-Dateien (ohne Unterordner)
-for %%f in ("%folder%\*.mpg") do (
-    echo Indiziere: "%%f"
-    "%avidemux%" --index-mpeg "%%f"
-    echo.
-)
 
-echo Fertig.
+:ende
+echo Fertig mit allen Dateien.
 pause
