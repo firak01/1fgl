@@ -4,7 +4,7 @@ REM Batch-Datei: .mpg-Dateien im Verzeichnis indizieren (Avidemux CLI)
 REM ========================================
 
 REM Pfad zu Avidemux CLI definieren
-set "avidemux=C:\Program Files\Avidemux 2.6 - 64 bits\avidemux_cli.exe"
+set "avidemux=C:\Program Files\Avidemux 2.7 - 32 bits\avidemux_cli.exe"
 
 REM Prüfen, ob überhaupt ein Verzeichnis oder Datei übergeben wurde
 if "%~1"=="" (
